@@ -61,7 +61,7 @@ img {
 .nav-header {
     display: flex;
     margin-right: 332px;
-    text-align: center;
+    align-items: center;
 }
 
 .header-list {
@@ -138,11 +138,10 @@ img {
 
 .wrap-main-part {
     max-width: 100%;
-    padding: 188px 0;
 }
 
 .main-part {
-    
+    padding: 188px 0;
     background-color: #2e2f42;;
 }
 .main-title {
@@ -296,7 +295,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .portfolio-description {
