@@ -225,6 +225,7 @@ img {
 
 .team-list-item {
     background-color: #fff;
+    border-radius: 0px 0px 4px 4px;
 
 }
 .team-img {
@@ -240,7 +241,7 @@ img {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 .team-list-title {
     font-weight: 500;
