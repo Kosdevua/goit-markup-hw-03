@@ -3,11 +3,26 @@ body {
     color: #434455;
     background-color: #FFFFFF ;
 }
+
+h1,h2,h3,h4,h5,h6,p,ul {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
 li,
 a {
     list-style-type: none;
     text-decoration: none;
+    margin: 0;
 }
+
+img {
+    display: block;
+}
+
 .header-logo-left {
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
@@ -115,6 +130,7 @@ a {
 }
 .team-list {
     background-color: #f4f4fd;
+    display: flex;
 }
 
 .team-list-item {
@@ -146,6 +162,12 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
 }
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .main-portfolio-title {
     font-weight: 700;
     font-size: 36px;
